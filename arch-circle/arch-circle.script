@@ -16,7 +16,6 @@ fun ease_value(min, max, percent) {
 }
 
 fun animate_in_zoom(sprite, image, min, max, percent, x, y) {
-	set_scaled_sprite(sprite, image, ease_value(min, max, percent));
 	position_sprite(sprite, x, y);
 }
 
